@@ -2,7 +2,12 @@ import React from 'react'
 import "./About.css"
 const About = () => {
   return (
-    <div>About</div>
+    <div>
+      <div className="about-image about-overlay"></div>
+      <div className="container-about">
+        <h1>About Page</h1>
+      </div>
+    </div>
   )
 }
 

@@ -1,0 +1,29 @@
+.container-contact{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    heighT:100vh;
+    position: absolute;
+    justify-content: center;
+
+    top:0;
+}
+.container-contact h1{
+    color: white;
+    font-size:100px;
+    text-transform: uppercase;
+}
+.contact-image{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:400px;
+    height:600px;
+    overflow: hidden;
+    background-color: yellow;
+}
+.contact-overlay{
+    background: url("https://github.com/taimoorshahzada/Page-Transition-Animation-in-React.js-with-React-Router-and-GSAP/blob/main/src/components/Assets/img1.jpg?raw=true");
+    background-size: cover;
+}
