@@ -9,7 +9,17 @@ const Home = () => {
 
   const homeimg=useRef(null);
   useEffect(()=>{
-    
+      home.from(homeh1.current,{
+        duration:.6,
+        skewX:10,
+        x:-100,
+        opacity: 0,
+      },"-=4.5")
+      home.from(homeimg.current,{
+        duration:.6,
+        y:-200,
+        opacity: 0,
+      },"-=4")
 
   },[])
   return (

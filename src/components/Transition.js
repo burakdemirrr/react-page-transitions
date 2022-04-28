@@ -6,9 +6,9 @@ const Transition = ({timeline}) => {
     const trans=useRef(null);
     useEffect(()=>{
         timeline.to(trans.current,{
-            duration:1,
-            y:2600,
-            ease:Power4.easeIn
+            duration:6,
+            x:2000,
+            ease:Power4.easeOut
         })
 
     })
